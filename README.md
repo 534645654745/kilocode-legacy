@@ -1,6 +1,4 @@
-<p align="center">
-  <strong>⚠️ This repository is no longer actively maintained. Development has moved to <a href="https://github.com/Kilo-Org/kilocode">github.com/Kilo-Org/kilocode</a>.</strong>
-</p>
+
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=kilocode.Kilo-Code"><img src="https://img.shields.io/badge/VS_Code_Marketplace-007ACC?style=flat&logo=visualstudiocode&logoColor=white" alt="VS Code Marketplace"></a>
