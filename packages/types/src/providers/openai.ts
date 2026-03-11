@@ -29,6 +29,8 @@ export const openAiNativeModels = {
 	"gpt-5.4": {
 		maxTokens: 128000,
 		contextWindow: 1_050_000,
+		supportsNativeTools: true,
+		defaultToolProtocol: "native",
 		includedTools: ["apply_patch"],
 		excludedTools: ["apply_diff", "write_to_file"],
 		supportsImages: true,
@@ -98,6 +100,8 @@ export const openAiNativeModels = {
 	"gpt-5.3-codex": {
 		maxTokens: 128000,
 		contextWindow: 400000,
+		supportsNativeTools: true,
+		defaultToolProtocol: "native",
 		includedTools: ["apply_patch"],
 		excludedTools: ["apply_diff", "write_to_file"],
 		supportsImages: true,
@@ -130,6 +134,8 @@ export const openAiNativeModels = {
 	"gpt-5.3-chat-latest": {
 		maxTokens: 16_384,
 		contextWindow: 128_000,
+		supportsNativeTools: true,
+		defaultToolProtocol: "native",
 		includedTools: ["apply_patch"],
 		excludedTools: ["apply_diff", "write_to_file"],
 		supportsImages: true,
