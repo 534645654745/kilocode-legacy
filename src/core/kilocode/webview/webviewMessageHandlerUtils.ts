@@ -86,7 +86,7 @@ export async function fetchKilocodeNotificationsCore(
 		message:
 			"Subagent delegation, parallel execution, and the full power of the CLI\u2014now inside your editor. Try it now.",
 		action: {
-			actionText: "Try now",
+			actionText: "Learn more",
 			actionURL: "https://blog.kilo.ai/p/we-completely-rebuilt-the-kilo-vs-code-extension",
 		},
 		showIn: ["extension"],

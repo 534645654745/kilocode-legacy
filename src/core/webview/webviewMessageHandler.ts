@@ -1782,10 +1782,11 @@ export const webviewMessageHandler = async (
 			await updateGlobalState("systemNotificationsEnabled", systemNotificationsEnabled)
 			await provider.postStateToWebview()
 			break
+		case "switchToPreRelease":
+			await switchToPreRelease()
+			break
 		case "openInBrowser":
-			if (message.url === "https://blog.kilo.ai/p/we-completely-rebuilt-the-kilo-vs-code-extension") {
-				await switchToPreRelease()
-			} else if (message.url) {
+			if (message.url) {
 				vscode.env.openExternal(vscode.Uri.parse(message.url))
 			}
 			break
